@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 </head>
 <body>
     <header>
@@ -45,20 +46,103 @@
     </header>
     <main>
         <div class="container">
-            <div class="row">
+        <div class="row">
                 <div class="col-lg-8 col-md-12  ">
-                    <div class="top">
+                <div class="top">
                     <h2 class="title d-flex justify-content-between mt-4 ">Catalogo Libri  <span class="badge text-bg-primary ">Aggiungi libro</span></h2>
-                    </div>
-                    <div class="info d-flex ">
-                        <span class="badge text-dark fs-6 d-inline-block ">Titolo <span class="badge text-dark fs-6 ">Data Prestito</span> <span class="badge fs-6 text-dark">Stato</span><span class="badge fs-6 text-dark text-left">Azioni</span></span>
-                    </div>
+                </div>
+        <div class="info">
+            <table class="table">
+                <thead>
+                    <tr>
+                    <th scope="col">Titolo</th>
+                    <th scope="col">Data Prestito</th>
+                    <th scope="col">Stato</th>
+                    <th scope="col">Azioni</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <td class="color bg-light" scope="row">I pilastri della terra</td>
+                    <td class="color bg-light">-</td>
+                    <td class="badge text-bg-success ">Disponibile</td>
+                    <td class="color bg-light"> <i class="bi bi-pencil-fill"></i> </td>
+                    </tr>
+                    <tr>
+                    <td scope="row">I promessi sposi</td>
+                    <td>-</td>
+                    <td class="badge text-bg-success">Disponibile</td>
+                    <td><i class="bi bi-pencil-fill"></i></td>
+                    </tr>
+                    <tr >
+                    <td class="color bg-light" scope="row">Il signore dei anelli</td>
+                    <td class="color bg-light">18/10/2023</td>
+                    <td class="badge text-bg-warning">In prestito</td>
+                    <td class="color bg-light"><i class="bi bi-pencil-fill"></i></td>
+                    </tr>
+                    <tr>
+                    <td scope="row">Harry potter e la pietra filosofale</td>
+                    <td>-</td>
+                    <td class="badge text-bg-success">Disponibile</td>
+                    <td><i class="bi bi-pencil-fill"></i></td>
+                    </tr>
+                    <tr>
+                    <td class="color bg-light" scope="row">Il codice Da Vinci</td>
+                    <td class="color bg-light">-</td>
+                    <td class="badge text-bg-danger">Non Disponibile</td>
+                    <td class="color bg-light"><i class="bi bi-pencil-fill"></i></td>
+                    </tr>
+                    <tr>
+                    <td scope="row">Shining</td>
+                    <td>-</td>
+                    <td class="badge text-bg-success">Disponibile</td>
+                    <td><i class="bi bi-pencil-fill"></i></td>
+                    </tr>
+                    <tr>
+                    <td class="color bg-light" scope="row">La divina commedia</td>
+                    <td class="color bg-light">21/09/2023</td>
+                    <td class="badge text-bg-warning">In prestito</td>
+                    <td class="color bg-light"><i class="bi bi-pencil-fill"></i></td>
+                    </tr>
+                    <tr>
+                    <td scope="row">Il trono di spade</td>
+                    <td>-</td>
+                    <td class="badge text-bg-success">Disponibile</td>
+                    <td><i class="bi bi-pencil-fill"></i></td>
+                    </tr>
+                    <tr>
+                    <td class="color bg-light" scope="row">Il mondo di sofia</td>
+                    <td class="color bg-light">-</td>
+                    <td class="badge text-bg-danger">Non Disponibile</td>
+                    <td class="color bg-light"><i class="bi bi-pencil-fill"></i></td>
+                    </tr>
+                    <tr>
+                    <td scope="row">Le cronache di Narnia: il leone, la strega e l'armadio</td>
+                    <td>25/07/2023</td>
+                    <td class="badge text-bg-warning"><i class="bi bi-pencil-fill"></i> </td>
+                    <td><i class="bi bi-pencil-fill"></i></td>
+                    </tr>
+                    <tr>
+                    <td class="color bg-light" scope="row">Il piccolo principe</td>
+                    <td class="color bg-light">-</td>
+                    <td class="badge text-bg-success">Disponibile</td>
+                    <td class="color bg-light"><i class="bi bi-pencil-fill"></i></td>
+                    </tr>
+                    <tr>
+                    <td scope="row">La storia infinita</td>
+                    <td>-</td>
+                    <td class="badge text-bg-success">Disponibile</td>
+                    <td><i class="bi bi-pencil-fill"></i></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
                 </div>
                 <div class="col-lg-4  col-md-12 bg-dark">
                     asdg
 
                 </div>
-            </div>
+        </div>
 
         </div>
 
